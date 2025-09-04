@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho - Origamid</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .cart {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .cart img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .cart-items {
+      list-style: none;
+      margin-bottom: 20px;
+    }
+
+    .cart-items li {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .cart-items li:last-child {
+      border-bottom: none;
+    }
+
+    .cart button {
+      background-color: #f39c12;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .cart button:hover {
+      background-color: #e67e22;
+    }
+
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      color: #f39c12;
+    }
+  </style>
+</head>
+<body>
+
+  <main class="cart">
+    <h1>Carrinho de Compras</h1>
+
+    <img 
+      src="https://redacao.rhpravoce.com.br/wp-content/uploads/2024/09/ataque-hacker.jpg" 
+      alt="Imagem ilustrativa de um hacker" 
+    />
+
+    <ul class="cart-items">
+      <li>
+        Item 1 <button>Remover</button>
+      </li>
+      <li>
+        Item 2 <button>Remover</button>
+      </li>
+      <li>
+        Item 3 <button>Remover</button>
+      </li>
+    </ul>
+
+    <button>Finalizar Compra</button>
+
+    <a class="back-link" href="index.html">Voltar para a página inicial</a>
+  </main>
+
+</body>
+</html>

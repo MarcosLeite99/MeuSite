@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+    <title>Origamid - Pro Player</title>
+    
+    <!-- CSS interno para exemplo, você pode passar para style.css depois -->
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Corpo e cores de fundo */
+        body {
+            background: linear-gradient(to bottom, #1f1f1f, #121212);
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #0d0d0d;
+            padding: 15px 20px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: flex-start;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f39c12; /* Efeito hover nos links */
+        }
+
+        /* Seção principal (Hero) */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        /* Botões */
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .button_nav {
+            text-decoration: none;
+            padding: 12px 25px;
+            background-color: #f39c12;
+            color: #fff;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .button_nav:hover {
+            background-color: #e67e22;
+            transform: scale(1.1); /* efeito leve de zoom */
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0d0d0d;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #bbb;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .button-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho com menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section class="hero">
+            <h1>Seja um Pro Player</h1>
+            <p>Funciona em todas as plataformas</p>
+
+            <div class="button-group">
+                <a class="button_nav" href="vendas.html">Compras</a>
+                <a class="button_nav" href="download.html">Download</a>
+                <a class="button_nav" href="carrinho.html">Carrinho</a>
+                <a class="button_nav" href="tutorial.html">Tutorial</a>
+            </div>
+        </section>
+        <!--Seção-->
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+       
+        &copy; 2025 Origamid. Todos os direitos reservados.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.button_nav {
+    padding: 15px; /* conteudo do centro a borda */
+    background: purple; 
+    border-radius: 12px; /* deixa a borda redonda */
+    color: white;  
+    margin: 0  2PX;
+ }
+
+
+ /*
+ margin 
+ 12px -> atribui para todos oa lados E,D,C,B
+ 12px 20px -> 12px E,d  - 20px C,B
+ 0 0 0 0 -> C , D , B ,E 
+ */
+img{
+    height: 200px;
+    border-radius: 20px;
+}
